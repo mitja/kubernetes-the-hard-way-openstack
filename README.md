@@ -6,6 +6,8 @@ Kubernetes The Hard Way is optimized for learning, which means taking the long r
 
 > The results of this tutorial should not be viewed as production ready, and may receive limited support from the community, but don't let that stop you from learning!
 
+This is a fork of [Kelsey Hightower's Tutorial](https://github.com/kelseyhightower/kubernetes-the-hard-way) adapted to OpenStack.
+
 ## Target Audience
 
 The target audience for this tutorial is someone planning to support a production Kubernetes cluster and wants to understand how everything fits together.
@@ -23,7 +25,7 @@ Kubernetes The Hard Way guides you through bootstrapping a highly available Kube
 
 ## Labs
 
-This tutorial assumes you have access to the [Google Cloud Platform](https://cloud.google.com). While GCP is used for basic infrastructure requirements the lessons learned in this tutorial can be applied to other platforms.
+This tutorial assumes you have access to an OpenStack compatible Cloud Platform such as [Open Telekom Cloud](https://cloud.telekom.de/en/infrastructure/open-telekom-cloud). While OpenStack is used for basic infrastructure requirements the lessons learned in this tutorial can be applied to other platforms.
 
 * [Prerequisites](docs/01-prerequisites.md)
 * [Installing the Client Tools](docs/02-client-tools.md)
